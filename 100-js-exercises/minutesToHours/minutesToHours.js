@@ -4,3 +4,6 @@ function minutesToHours(minutes) {
 }
 
 export { minutesToHours };
+
+const hours = minutesToHours(1200);
+console.log("1200 minutes =", hours, "hours");
