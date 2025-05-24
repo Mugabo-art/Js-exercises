@@ -4,3 +4,6 @@ function averageOf4Numbers(nr1, nr2, nr3, nr4) {
 }
 
 export { averageOf4Numbers };
+
+const result = averageOf4Numbers(10, 20, 30, 40);
+console.log("The average is:", result); 
